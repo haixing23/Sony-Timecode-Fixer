@@ -1,0 +1,13 @@
+.DS_Store
+.build/
+build/
+dist/
+*.app/
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+*.xcuserdata/
+DerivedData/
+Examples/**/* - Fixed.fcpxml
+Examples/**/* - Fixed.fcpxmld/

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Sony Timecode Fixer app icon</title>
+  <desc id="desc">A minimal monochrome clapperboard slate showing a single timecode reading.</desc>
+
+  <defs>
+    <clipPath id="squircle">
+      <rect x="0" y="0" width="1024" height="1024" rx="224" ry="224"/>
+    </clipPath>
+    <linearGradient id="slate" x1="0" y1="376" x2="0" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#ececec"/>
+    </linearGradient>
+    <linearGradient id="seam" x1="0" y1="358" x2="0" y2="404" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#squircle)">
+    <!-- Slate body -->
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#slate)"/>
+
+    <!-- Clapper sticks: solid black band -->
+    <rect x="0" y="0" width="1024" height="376" fill="#111111"/>
+
+    <!-- White diagonal stripes laid over the black band -->
+    <g fill="#fafafa">
+      <polygon points="-180,0 30,0 270,376 60,376"/>
+      <polygon points="120,0 330,0 570,376 360,376"/>
+      <polygon points="420,0 630,0 870,376 660,376"/>
+      <polygon points="720,0 930,0 1170,376 960,376"/>
+      <polygon points="1020,0 1230,0 1470,376 1260,376"/>
+    </g>
+
+    <!-- Seam shadow where sticks meet slate -->
+    <rect x="0" y="358" width="1024" height="46" fill="url(#seam)"/>
+
+    <!-- REC indicator (red dot, black text) -->
+    <circle cx="158" cy="490" r="22" fill="#e22b2b"/>
+    <text x="206" y="503" font-family="SF Mono, Menlo, Consolas, monospace"
+          font-size="40" font-weight="700" letter-spacing="2"
+          fill="#111111">REC</text>
+
+    <!-- Main timecode reading -->
+    <text x="512" y="740" text-anchor="middle"
+          font-family="SF Mono, Menlo, Consolas, monospace"
+          font-size="208" font-weight="800"
+          letter-spacing="-2"
+          fill="#111111">01:23:45</text>
+
+    <!-- Slate underline beneath TC -->
+    <line x1="148" y1="808" x2="876" y2="808" stroke="#111111" stroke-width="6" opacity="0.85"/>
+
+    <!-- Caption -->
+    <text x="512" y="884" text-anchor="middle"
+          font-family="SF Mono, Menlo, Consolas, monospace"
+          font-size="44" font-weight="600"
+          letter-spacing="8"
+          fill="#6b6b6b">TIMECODE</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fcpxml version="1.12">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p25" frameDuration="1/25s" width="1920" height="1080"/>
+    <asset id="r2" name="C0001" start="0s" duration="100/25s" format="r1">
+      <media-rep kind="original-media" src="C0001.MP4"/>
+    </asset>
+  </resources>
+  <project name="Sony Test">
+    <sequence format="r1" duration="100/25s">
+      <spine>
+        <asset-clip name="C0001" ref="r2" offset="0s" start="0s" duration="100/25s"/>
+      </spine>
+    </sequence>
+  </project>
+</fcpxml>

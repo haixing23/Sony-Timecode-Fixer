@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NonRealTimeMeta xmlns="urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.20">
+  <Duration value="100"/>
+  <LtcChangeTable tcFps="25" halfStep="false">
+    <LtcChange frameCount="0" value="12563401" status="increment"/>
+  </LtcChangeTable>
+  <VideoFormat>
+    <VideoFrame captureFps="25p" formatFps="25p"/>
+  </VideoFormat>
+</NonRealTimeMeta>

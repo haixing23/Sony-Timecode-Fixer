@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Sony Timecode Fixer app icon</title>
+  <desc id="desc">A transparent-background app icon with a floating timecode panel, FCPXML tag, wave trace, and correction mark.</desc>
+  <defs>
+    <linearGradient id="slate" x1="230" y1="130" x2="790" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#31404a"/>
+      <stop offset="0.48" stop-color="#18262e"/>
+      <stop offset="1" stop-color="#091217"/>
+    </linearGradient>
+    <linearGradient id="slateEdge" x1="250" y1="145" x2="758" y2="798" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6d7f89" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="red" x1="318" y1="350" x2="722" y2="568" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff635c"/>
+      <stop offset="1" stop-color="#d51320"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="300" y1="636" x2="730" y2="708" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bdf6ff"/>
+      <stop offset="1" stop-color="#28bee8"/>
+    </linearGradient>
+    <linearGradient id="green" x1="640" y1="624" x2="792" y2="786" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#40dc8d"/>
+      <stop offset="1" stop-color="#009763"/>
+    </linearGradient>
+    <filter id="shadow" x="-24%" y="-24%" width="148%" height="160%">
+      <feDropShadow dx="0" dy="34" stdDeviation="42" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+    <filter id="redGlow" x="-14%" y="-20%" width="128%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#ffb0a8" flood-opacity="0.46"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M258 132h328c24 0 47 10 64 27l110 110c17 17 27 40 27 64v452c0 57-46 103-103 103H258c-57 0-103-46-103-103V235c0-57 46-103 103-103Z" fill="url(#slate)"/>
+    <path d="M586 132v122c0 30 24 54 54 54h147L586 132Z" fill="#3f525e"/>
+    <path d="M604 148v94c0 25 20 45 45 45h111" fill="none" stroke="#7c8e98" stroke-width="18" stroke-linecap="round" opacity="0.72"/>
+    <path d="M258 132h328c24 0 47 10 64 27l110 110c17 17 27 40 27 64v452c0 57-46 103-103 103H258c-57 0-103-46-103-103V235c0-57 46-103 103-103Z" fill="none" stroke="url(#slateEdge)" stroke-width="16"/>
+  </g>
+
+  <g transform="translate(234 256)">
+    <rect x="0" y="0" width="556" height="104" rx="27" fill="#0d1a21" opacity="0.96"/>
+    <path d="M44 52h46m40 0h46m40 0h46m40 0h46m40 0h46" stroke="#718993" stroke-width="19" stroke-linecap="round" opacity="0.7"/>
+
+    <rect x="38" y="160" width="480" height="144" rx="34" fill="url(#red)" filter="url(#redGlow)"/>
+    <text x="278" y="252" text-anchor="middle" font-family="SF Mono, Menlo, Consolas, monospace" font-size="68" font-weight="800" letter-spacing="0" fill="#fff8f5">01:23:45</text>
+
+    <g opacity="0.95">
+      <path d="M54 430h54l22-73 36 130 36-178 40 121h56l31-73 32 73h134" fill="none" stroke="#d6fbff" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M54 430h54l22-73 36 130 36-178 40 121h56l31-73 32 73h134" fill="none" stroke="url(#cyan)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g opacity="0.86">
+      <rect x="-2" y="132" width="24" height="26" rx="6" fill="#d9e8ee"/>
+      <rect x="-2" y="185" width="24" height="26" rx="6" fill="#d9e8ee"/>
+      <rect x="-2" y="238" width="24" height="26" rx="6" fill="#d9e8ee"/>
+      <rect x="-2" y="291" width="24" height="26" rx="6" fill="#d9e8ee"/>
+      <rect x="534" y="132" width="24" height="26" rx="6" fill="#d9e8ee"/>
+      <rect x="534" y="185" width="24" height="26" rx="6" fill="#d9e8ee"/>
+      <rect x="534" y="238" width="24" height="26" rx="6" fill="#d9e8ee"/>
+      <rect x="534" y="291" width="24" height="26" rx="6" fill="#d9e8ee"/>
+    </g>
+  </g>
+
+  <g transform="translate(608 618)" filter="url(#shadow)">
+    <circle cx="94" cy="94" r="94" fill="url(#green)"/>
+    <path d="M52 96l31 31 64-78" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(284 716)">
+    <rect x="0" y="0" width="260" height="82" rx="24" fill="#101f27" opacity="0.92"/>
+    <text x="130" y="55" text-anchor="middle" font-family="SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="43" font-weight="800" letter-spacing="0" fill="#e9f4f7">FCPXML</text>
+  </g>
+</svg>

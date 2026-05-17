@@ -1,0 +1,8 @@
+Sony Timecode Fixer includes a standalone port of the Sony timecode conversion
+workflow from CommandPost's Final Cut Pro toolbox.
+
+Upstream:
+https://github.com/CommandPost/CommandPost/tree/develop/src/plugins/finalcutpro/toolbox/sonytimecode
+
+CommandPost is licensed under the MIT License:
+https://github.com/CommandPost/CommandPost/blob/develop/LICENSE.md
